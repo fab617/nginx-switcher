@@ -1,0 +1,64 @@
+# Visual Studio 项目文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.ntvs*
+*.njsproj
+*.slnx*
+*.jfm
+.DS_Store
+
+# 构建输出
+[Bb]in/
+[Oo]bj/
+
+# 调试文件
+*.pdb
+*.iobj
+*.ipdb
+
+# NuGet 包
+packages/
+*.nupkg
+.nuget/
+
+# 测试结果
+TestResults/
+
+# 日志文件
+*.log
+logs/
+
+# 配置文件
+*.config
+!App.config
+
+# 编译生成的文件
+*.dll
+*.exe
+*.tlb
+*.tlh
+*.bak
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
+
+# 资源文件
+*.resx
+*.resources
+
+# Visual Studio 缓存
+.vs/
+
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
+
+# 其他
+*.swp
+*.swo
+*~
