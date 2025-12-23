@@ -6,7 +6,6 @@
 *.csproj.user
 *.ntvs*
 *.njsproj
-*.slnx*
 *.jfm
 .DS_Store
 
@@ -46,10 +45,6 @@ logs/
 *.tmp
 *.temp
 *.cache
-
-# 资源文件
-*.resx
-*.resources
 
 # Visual Studio 缓存
 .vs/

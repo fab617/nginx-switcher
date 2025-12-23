@@ -51,12 +51,12 @@ namespace nginx_switcher
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnScanConfig = new System.Windows.Forms.Button();
-            this.btnRefresh = new System.Windows.Forms.Button();
             this.btnAddConfig = new System.Windows.Forms.Button();
             this.btnDeleteConfig = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
             this.btnConfigNginx = new System.Windows.Forms.Button();
             this.lblNginxPath = new System.Windows.Forms.Label();
             this.contextMenuStrip.SuspendLayout();
@@ -113,7 +113,7 @@ namespace nginx_switcher
             this.splitContainer1.Panel2.Controls.Add(this.panel1);
             this.splitContainer1.Panel2MinSize = 200;
             this.splitContainer1.Size = new System.Drawing.Size(800, 450);
-            this.splitContainer1.SplitterDistance = 596;
+            this.splitContainer1.SplitterDistance = 200;
             this.splitContainer1.TabIndex = 0;
             // 
             // listView1
@@ -124,11 +124,10 @@ namespace nginx_switcher
             this.columnHeader3});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listView1.FullRowSelect = true;
-            this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 0);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(596, 450);
+            this.listView1.Size = new System.Drawing.Size(200, 450);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -149,7 +148,7 @@ namespace nginx_switcher
             this.columnHeader3.Text = "状态";
             this.columnHeader3.Width = 150;
             // 
-            // panel1
+            // panel1 controls
             // 
             this.panel1.Controls.Add(this.btnScanConfig);
             this.panel1.Controls.Add(this.btnRefresh);
@@ -163,7 +162,7 @@ namespace nginx_switcher
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 450);
+            this.panel1.Size = new System.Drawing.Size(596, 450);
             this.panel1.TabIndex = 0;
             // 
             // btnScanConfig
